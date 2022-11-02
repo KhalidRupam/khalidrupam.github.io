@@ -26,6 +26,7 @@ body {
   no-repeat center;
   z-index: 9999999;
 }
+
 #logo{
   position: absolute;
   top: 50%;
@@ -603,3 +604,18 @@ iframe{
   };
 }
 
+
+@media only screen and (max-width: 600px) {
+  .experience{
+    font-size:8vw;
+  }
+  .Educational{
+    font-size:4vw;
+  }
+  .Contact{
+    font-size:5.5vw;
+  }
+  .HeaderText{
+    font-size: 3vw;
+  }
+}
